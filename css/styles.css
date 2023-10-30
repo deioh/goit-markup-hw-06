@@ -140,6 +140,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(46, 47, 66, 0.7);
+ 
+  
 }
 
 .hero-image h1 {
@@ -207,8 +209,12 @@ body {
 .hero-image .btn-close {
   background-color: white;
   width: 480px;
-  height: 584px;
+  /* height: 584px; */
   position: relative;
+  padding: 0px 20px;
+  padding-bottom: 100px;
+  
+   text-align: center;
 }
 
 .btn-right {
@@ -314,8 +320,8 @@ body {
 }
 
 .service-agree .agree-checkbox:checked + .agree-check-icon {
-  background-color: var(--iris);
-  border-color: var(--iris);
+  background-color: var(--IRIS);
+  border-color: var(--IRIS);
   fill: white;
   outline: none;
   stroke: white;
@@ -329,7 +335,7 @@ body {
 .modal-send {
   margin-top: 15px;
   padding: 16px 32px;
-  background-color: var(--iris);
+  background-color: var(--IRIS);
   color: white;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
