@@ -11,10 +11,6 @@
   --IRIS: #4d5ae5;
 }
 
-* {
-  margin: 0px;
-}
-
 .font-bm {
   /* Body Medium */
   /* font-family: Roboto; */
@@ -41,6 +37,7 @@ body {
   color: var(--SLATE);
   width: 1440px;
   height: 2592px;
+  margin: 0 auto;
 }
 
 .a {
@@ -52,6 +49,10 @@ body {
   /* NO BULLET BEFORE LI */
   padding-left: 0;
   list-style: none;
+}
+
+.button {
+  border: none;
 }
 
 .hero-image .button:focus,
@@ -371,6 +372,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   color: var(--NAVY-BLUE);
+  margin: 0;
 }
 
 .p {
@@ -378,6 +380,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: var(--SLATE);
+  margin: 0;
 }
 
 .section-wedo h2,
@@ -385,9 +388,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
-  text-align: center;
   text-transform: capitalize;
-  /* margin-left: 589px; */
   color: var(--NAVY-BLUE);
 }
 
@@ -446,8 +447,9 @@ body {
 /* SECTION 3 */
 .section-team {
   width: 1440px;
-  height: 732px;
+  height: 780px;
   background: var(--CLOUD, #f4f4fd);
+
   /* flex-shrink: 0; */
   /* margin-top: 120px; */
   /* display: flex; */
@@ -457,14 +459,16 @@ body {
 
 .section-team h2 {
   text-align: center;
-  padding: 120px 639px;
+  padding-top: 120px;
   padding-bottom: 72px;
+  margin: 0;
 }
 
 .section-team .list {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin: 0;
 }
 
 .section-team li {
@@ -586,7 +590,7 @@ body {
   letter-spacing: 0.32px;
 }
 .section-footer .icons {
-  padding-top: 16px;
+  /* padding-top: 16px; */
   display: flex;
   flex-direction: row;
   /* padding: 16px; */
@@ -608,10 +612,10 @@ body {
 }
 
 .section-footer .sub-form-elements {
-  /* display: flex; */
-  /* justify-content: center;   */
+  display: flex;
+  justify-content: center;  
   gap: 24px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 .section-footer .label-text {
   color: white;
@@ -622,6 +626,9 @@ body {
   width: 264px;
   height: 40px;
   background: var(--NAVY-BLUE, #2e2f42);
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .section-footer .btn-sub-form {
@@ -632,6 +639,7 @@ body {
   align-items: center;
   gap: 16px;
   padding: 8px 24px;
+
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   fill: var(--WHITE);
